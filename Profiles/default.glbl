@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\Тестирование\\СПОРУ\\Test Suites\\Прогноз по отраслям\\Прогноз по отраслям\\Data Files\\ПланФакт.xls'</initValue>
+      <name>excelFilePath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

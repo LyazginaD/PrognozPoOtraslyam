@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Фильтр КПО-Отпуск</name>
+   <tag></tag>
+   <elementGuidId>8459f205-3780-4205-9d41-33620bb069fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='7783c5bd5708424196437d0c77fc6316']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#7783c5bd5708424196437d0c77fc6316 > div.rb-filter-container.not-selectable > div.rb-filter-header-container > div.rb-filter-header-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1df8b5a2-def4-4d64-af5e-be98c7e6aa5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-header-text</value>
+      <webElementGuid>d5c20706-a2f4-429f-b87d-db519da5c7e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Отпуск из сети, млн. кВт.ч</value>
+      <webElementGuid>c4840d5d-8452-4d7f-bc2b-351f362ebc37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;7783c5bd5708424196437d0c77fc6316&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-header-container&quot;]/div[@class=&quot;rb-filter-header-text&quot;]</value>
+      <webElementGuid>187dd066-4c4e-4fc5-8f94-6dbea1a77691</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='7783c5bd5708424196437d0c77fc6316']/div/div/div</value>
+      <webElementGuid>385a648d-77cb-47b6-996a-26f351fb6a0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='КПО/Отпуск из сети'])[1]/following::div[5]</value>
+      <webElementGuid>3801d42e-1ec7-4b1c-92f9-30b5dc1fd511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[17]/following::div[11]</value>
+      <webElementGuid>383b2856-111d-4a97-a6ea-a24d4f767423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Включить'])[4]/preceding::div[1]</value>
+      <webElementGuid>84ee67b5-27b1-41b0-9e77-f6fc11b3fd49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[35]/div[2]/div/div/div/div</value>
+      <webElementGuid>63304c1e-4abe-48fb-944e-d3073cc749b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Отпуск из сети, млн. кВт.ч' or . = 'Отпуск из сети, млн. кВт.ч')]</value>
+      <webElementGuid>55d1c7f0-e6fa-4578-b5ab-22747865f6dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
