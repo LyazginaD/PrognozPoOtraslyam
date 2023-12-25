@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[10]/div/div</value>
+         <value>//*/text()[normalize-space(.)='Ноябрь']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0737dd7d-a1b0-4c79-888e-e37ec7d10b8a</webElementGuid>
+      <webElementGuid>921e7b30-bbee-446c-8194-50d814021077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-list-item-text</value>
-      <webElementGuid>8da08653-82e6-4a8d-be11-83d002b2196c</webElementGuid>
+      <webElementGuid>c315a44e-1f6c-4ffc-a7c5-52311e6af832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ноябрь</value>
-      <webElementGuid>431f0572-c8e7-4442-a794-e796be72743b</webElementGuid>
+      <webElementGuid>99ac4f58-e1d2-4844-a8d3-3dc755ddb350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +46,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;0020ae3008814ccfa5435a22343f2a5f&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
-      <webElementGuid>6097872f-c16c-4b74-9a1d-e74873dcb2e9</webElementGuid>
+      <webElementGuid>b871b10a-0d1c-452b-bcb2-b8b29a9fe5db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='0020ae3008814ccfa5435a22343f2a5f']/div/div[2]/div[2]/ul/li[10]/div/div</value>
-      <webElementGuid>766d75ad-a785-4df2-b973-4dcbaa2cb56a</webElementGuid>
+      <value>//div[@id='0020ae3008814ccfa5435a22343f2a5f']/div/div[2]/div[2]/ul/li[11]/div/div</value>
+      <webElementGuid>bbdb9f99-21a2-4fce-bfbe-3b2204368924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Октябрь'])[1]/following::div[2]</value>
-      <webElementGuid>e816458e-e234-4f27-b294-32ed4f4629a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Октябрь'])[2]/following::div[2]</value>
+      <webElementGuid>7fe809e9-b59c-47fc-a378-da24e138a582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Сентябрь'])[1]/following::div[4]</value>
-      <webElementGuid>c76ac397-84bc-46e4-b0c1-444cadf44690</webElementGuid>
+      <webElementGuid>c60cb9f2-eb93-4d11-af08-f18e68de7259</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Декабрь'])[1]/preceding::div[1]</value>
-      <webElementGuid>726e5043-a844-43f6-b5db-79326cb9abaa</webElementGuid>
+      <webElementGuid>68d07950-e44e-4548-b21c-6faee7966f31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Август'])[1]/preceding::div[3]</value>
-      <webElementGuid>520156b5-3730-49cb-b0f7-7e69825bb241</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[16]/preceding::div[18]</value>
+      <webElementGuid>ae3b835f-0db8-4bc7-8223-6f2442ee885e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ноябрь']/parent::*</value>
-      <webElementGuid>8bfd6251-1dca-4751-bd51-8f4276daf7f3</webElementGuid>
+      <webElementGuid>fcb52814-0ecd-40f2-a525-7a5657725ca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[10]/div/div</value>
-      <webElementGuid>bde30aff-476e-4f11-83ac-ca42510333af</webElementGuid>
+      <value>//li[11]/div/div</value>
+      <webElementGuid>dcf08a21-f912-4c36-bdee-a812375de052</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Ноябрь' or . = 'Ноябрь')]</value>
-      <webElementGuid>d09bd8c2-110d-41b3-aafd-8e57ea864378</webElementGuid>
+      <webElementGuid>03042e59-c324-460e-9e5a-92383c87768b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
