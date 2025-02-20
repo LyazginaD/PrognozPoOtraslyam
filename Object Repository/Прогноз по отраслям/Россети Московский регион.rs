@@ -6,15 +6,16 @@
    <elementGuidId>2f1b3faa-705d-47ab-9237-c3287a9dd835</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='6334790044eb4136aa5f85edc2c11154']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[6]/div/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[7]/div/i</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>959a24ef-6dbb-4a8e-bcba-5239df5b6a3b</webElementGuid>
+      <webElementGuid>e110a976-c73a-4ae2-9b86-fb8e1e381b51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,30 +31,30 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-square-o rb-filter-list-item-icon</value>
-      <webElementGuid>33aedb1f-d451-4f6a-820b-484a47889ff0</webElementGuid>
+      <webElementGuid>358b71d7-9b9d-4631-8a1b-ca4991457302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;6334790044eb4136aa5f85edc2c11154&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon&quot;]</value>
-      <webElementGuid>c8a846fe-2665-4329-ab9e-2f2af8d0d965</webElementGuid>
+      <value>id(&quot;ea0cf47648c948bb8c2da57470829ac2&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent lazy-load&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon&quot;]</value>
+      <webElementGuid>45da8350-2583-4122-9cdb-cf6b0d34b20c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='6334790044eb4136aa5f85edc2c11154']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[6]/div/i</value>
-      <webElementGuid>dcf22540-fb5c-43c6-86ab-d913b798e626</webElementGuid>
+      <value>//div[@id='ea0cf47648c948bb8c2da57470829ac2']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[7]/div/i</value>
+      <webElementGuid>ab8fd310-cae9-47af-8e14-2de76ff52621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/div/i</value>
-      <webElementGuid>ba2344ce-d1dc-4a17-a847-81d16f403ae3</webElementGuid>
+      <value>//li[7]/div/i</value>
+      <webElementGuid>aa0e4fd2-f461-48dc-9efc-839a9d286aff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

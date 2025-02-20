@@ -4,5 +4,6 @@
    <name>Прогноз по отраслям ПАО Россети и Магистральные сети</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9126ad7d-abcd-4db8-94a6-a9fbc6342890</testCaseGuid>
 </TestCaseEntity>

@@ -69,6 +69,8 @@ static def DZOTest(def absPerc, def year, def typeOfData, def month, def kpoOtpu
 
     WebUI.click(findTestObject('Общие объекты/Раскрыть список РаспредКомплекс'))
 
+    WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Раскрыть список Россети Волга'), 30)
+
     WebUI.click(findTestObject('Прогноз по отраслям/Россети Волга'))
 
     def test = Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
@@ -125,122 +127,115 @@ static def DZOTest(def absPerc, def year, def typeOfData, def month, def kpoOtpu
     Params(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 }
 
-
 static def YearChange(def year, def prognoz) {
-   
 }
 
 static def MonthChange(def month, def prognoz) {
- 
 }
 
 static def TypeOfDataChange(def typeOfData) {
-
 }
 
 static def KpoOtpusk(def kpoOtpusk, def prognoz) {
-
 }
 
 static def Params(def absPerc, def year, def typeOfData, def month, def kpoOtpusk, def prognoz) {
-	month = 'Январь'
+    month = 'Январь'
 
-	MonthChange(month, prognoz)
-
+    MonthChange(month, prognoz)
 }
 
 static def ParamsChangePFKO(def absPerc, def year, def typeOfData, def month, def kpoOtpusk, def prognoz) {
-	typeOfData = 'Факт'
+    typeOfData = 'Факт'
 
-	TypeOfDataChange(typeOfData)
+    TypeOfDataChange(typeOfData)
 
-	kpoOtpusk = 'КПО'
+    kpoOtpusk = 'КПО'
 
-	KpoOtpusk(kpoOtpusk, prognoz)
+    KpoOtpusk(kpoOtpusk, prognoz)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	kpoOtpusk = 'Отпуск'
+    kpoOtpusk = 'Отпуск'
 
-	KpoOtpusk(kpoOtpusk, prognoz)
+    KpoOtpusk(kpoOtpusk, prognoz)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	typeOfData = 'План'
+    typeOfData = 'План'
 
-	TypeOfDataChange(typeOfData)
+    TypeOfDataChange(typeOfData)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	kpoOtpusk = 'КПО'
+    kpoOtpusk = 'КПО'
 
-	KpoOtpusk(kpoOtpusk, prognoz)
+    KpoOtpusk(kpoOtpusk, prognoz)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	typeOfData = 'План СУ'
+    typeOfData = 'План СУ'
 
-	TypeOfDataChange(typeOfData)
+    TypeOfDataChange(typeOfData)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	kpoOtpusk = 'Отпуск'
+    kpoOtpusk = 'Отпуск'
 
-	KpoOtpusk(kpoOtpusk, prognoz)
+    KpoOtpusk(kpoOtpusk, prognoz)
 
-	Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Test(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 }
 
 static def Change(def absPerc, def year, def typeOfData, def month, def kpoOtpusk, def prognoz) {
-	WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда'), 30)
+    WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда'), 30)
 
-	'Нажать "Применить"'
-	WebUI.click(findTestObject('Прогноз по отраслям/Применить в фильтре Организация'))
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Прогноз по отраслям/Применить в фильтре Организация'))
 
-	Params(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+    Params(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
-	'Открыть фильтр "ДЗО"'
-	WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Организация'))
+    'Открыть фильтр "ДЗО"'
+    WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Организация'))
 
-	'Нажать "Снять выделение"'
-	WebUI.click(findTestObject('Прогноз по отраслям/Снять выделение в фильтре Организация'))
+    'Нажать "Снять выделение"'
+    WebUI.click(findTestObject('Прогноз по отраслям/Снять выделение в фильтре Организация'))
 }
 
 static def Test(def absPerc, def year, def typeOfData, def month, def kpoOtpusk, def prognoz) {
-
 }
 
 static def WriteToExcel(def absPerc, def year, def typeOfData, def month, def kpoOtpusk, def prognoz) {
-	String sheetName = 'Sheet1'
+    String sheetName = 'Sheet1'
 
-	def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
+    def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
 
-	def data = findTestData('PlanFact')
+    def data = findTestData('PlanFact')
 
-	int n = data.getRowNumbers() + 1
+    int n = data.getRowNumbers() + 1
 
-	String dZO = WebUI.getText(findTestObject('Прогноз по отраслям/Фильтр Организация'))
+    String dZO = WebUI.getText(findTestObject('Прогноз по отраслям/Фильтр Организация'))
 
-	String dashboardName = 'Прогноз по отраслям'
+    String dashboardName = 'Прогноз по отраслям'
 
-	def sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
+    def sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 0, dashboardName)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 0, dashboardName)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 1, dZO)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 1, dZO)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, year)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, year)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 3, month)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 3, month)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, typeOfData)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, typeOfData)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, kpoOtpusk)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, kpoOtpusk)
 
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, absPerc)
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, absPerc)
 
-	n = (n + 1)
+    n = (n + 1)
 
-	ExcelKeywords.saveWorkbook(GlobalVariable.excelFilePath, workbook01)
+    ExcelKeywords.saveWorkbook(GlobalVariable.excelFilePath, workbook01)
 }
 

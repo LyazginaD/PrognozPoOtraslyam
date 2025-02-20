@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'E:\\Тестирование\\git\\PrognozPoOtraslyam\\Data Files\\ПланФакт.xls'</initValue>
+      <initValue>'E:\\Тестирование\\git\\PrognozPoOtraslyam new\\Data Files\\ПланФакт.xls'</initValue>
       <name>excelFilePath</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

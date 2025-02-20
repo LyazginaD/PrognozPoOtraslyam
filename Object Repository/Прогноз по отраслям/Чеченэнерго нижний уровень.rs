@@ -6,15 +6,16 @@
    <elementGuidId>2657a9e8-3244-461e-ad3d-127155988789</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='6334790044eb4136aa5f85edc2c11154']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[2]/ul/li/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[3]/ul/li/div/div</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fc22fd26-f1ed-44d3-9fa2-2949c861a6ca</webElementGuid>
+      <webElementGuid>af59ef2c-ce4d-4755-8516-96bfdb9086eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +31,70 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-list-item-text</value>
-      <webElementGuid>5d24ef8c-9fae-403b-874e-b051a9cd1fbe</webElementGuid>
+      <webElementGuid>422a2af8-7c10-4bba-b313-dd9fd5159525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Чеченэнерго</value>
-      <webElementGuid>8345e6db-000c-4466-afc7-e369197c6e4a</webElementGuid>
+      <value>АО «Чеченэнерго»</value>
+      <webElementGuid>5dac4302-d6ce-4486-aae9-b95095ff16f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;6334790044eb4136aa5f85edc2c11154&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
-      <webElementGuid>d31f4c20-1813-49f2-9778-bf75feca7bd0</webElementGuid>
+      <value>id(&quot;ea0cf47648c948bb8c2da57470829ac2&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
+      <webElementGuid>b2455e54-85c7-44e8-9b2d-dc194c987ff7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='6334790044eb4136aa5f85edc2c11154']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[2]/ul/li/div/div</value>
-      <webElementGuid>b6fe102f-5f0f-419e-a082-ecc6b1bd3abd</webElementGuid>
+      <value>//div[@id='ea0cf47648c948bb8c2da57470829ac2']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[3]/ul/li/div/div</value>
+      <webElementGuid>50699828-a908-4564-9566-c0fb0655c7bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='АО «Чеченэнерго»'])[2]/following::div[2]</value>
-      <webElementGuid>8c0c250c-b07d-4258-a1da-ef42f79a0517</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='АО «Чеченэнерго»'])[1]/following::div[2]</value>
+      <webElementGuid>4d6e8526-0974-4f2f-bba7-93e673b005cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('АО ', '&quot;', 'Тываэнерго', '&quot;', '')])[2]/following::div[4]</value>
-      <webElementGuid>799251b8-cbcc-4179-bc71-77c437f6b6b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[1]/preceding::div[1]</value>
+      <webElementGuid>b5bec22e-4bd5-4332-8135-27911e906c29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[8]/preceding::div[1]</value>
-      <webElementGuid>0024fd95-a95e-46cd-9f89-f087a2465a8c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Исполнительный аппарат'])[3]/preceding::div[3]</value>
-      <webElementGuid>f064829d-00b8-4a82-8878-09ddce5f16d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Кубань'])[1]/preceding::div[3]</value>
+      <webElementGuid>478b78f4-5bf8-48c0-bd6b-b2c62236044c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/ul/li[2]/ul/li/div/div</value>
-      <webElementGuid>9b135465-f741-44fa-9ab8-a6dca3a9b599</webElementGuid>
+      <value>//li[3]/ul/li/div/div</value>
+      <webElementGuid>ae99b9e8-b845-416a-8b16-d146b1c895ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Чеченэнерго' or . = 'Чеченэнерго')]</value>
-      <webElementGuid>a10f662d-8bf5-4d8c-ba96-ed27ac6c07ed</webElementGuid>
+      <value>//div[(text() = 'АО «Чеченэнерго»' or . = 'АО «Чеченэнерго»')]</value>
+      <webElementGuid>7c815343-d986-4ef2-928c-7d0896327688</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -4,9 +4,12 @@
    <name>Prognoz po otraslyam</name>
    <tag></tag>
    <UUID>8979b4d0-006d-4433-852c-0bbe67ce871d</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Тестирование\СПОРУ\Test Suites\СПОРУ 17.02\СПОРУ\СПОРУ.prj</projectFileLocation>
+   <projectFileLocation>E:\Тестирование\git\PrognozPoOtraslyam new\СПОРУ.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

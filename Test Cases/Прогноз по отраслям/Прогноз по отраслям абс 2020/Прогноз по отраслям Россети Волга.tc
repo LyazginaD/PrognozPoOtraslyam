@@ -4,5 +4,6 @@
    <name>Прогноз по отраслям Россети Волга</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8fc5d28e-e3b1-4a0b-997e-8aa135dd5b4a</testCaseGuid>
 </TestCaseEntity>

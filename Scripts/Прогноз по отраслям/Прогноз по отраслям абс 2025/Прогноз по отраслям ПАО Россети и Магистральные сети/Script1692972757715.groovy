@@ -109,9 +109,21 @@ static def DZOTest(def absPerc, def year, def typeOfData, def month, def kpoOtpu
 
     WebUI.click(findTestObject('Общие объекты/Раскрыть список РаспредКомплекс'))
 
+    WebUI.click(findTestObject('Прогноз по отраслям/АО РЭС'))
+
+    Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+
+    WebUI.click(findTestObject('Прогноз по отраслям/Раскрыть список АО РЭС'))
+
+    WebUI.click(findTestObject('Прогноз по отраслям/АО РЭС нижний уровень'))
+
+    Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+
     WebUI.click(findTestObject('Прогноз по отраслям/Тываэнерго'))
 
     Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+
+    WebUI.click(findTestObject('Прогноз по отраслям/Раскрыть список Тываэнерго'))
 
     WebUI.click(findTestObject('Прогноз по отраслям/Раскрыть список Тываэнерго'))
 
@@ -119,11 +131,15 @@ static def DZOTest(def absPerc, def year, def typeOfData, def month, def kpoOtpu
 
     Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
 
+    WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Раскрыть список Чеченэнерго'), 30)
+
     WebUI.click(findTestObject('Прогноз по отраслям/Раскрыть список Тываэнерго'))
 
     WebUI.click(findTestObject('Прогноз по отраслям/Чеченэнерго'))
 
     Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
+
+    WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Раскрыть список Чеченэнерго'), 30)
 
     WebUI.click(findTestObject('Прогноз по отраслям/Раскрыть список Чеченэнерго'))
 

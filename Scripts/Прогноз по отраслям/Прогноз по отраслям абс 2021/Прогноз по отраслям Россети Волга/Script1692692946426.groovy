@@ -69,6 +69,8 @@ static def DZOTest(def absPerc, def year, def typeOfData, def month, def kpoOtpu
 
     WebUI.click(findTestObject('Общие объекты/Раскрыть список РаспредКомплекс'))
 
+    WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Раскрыть список Россети Волга'), 30)
+
     WebUI.click(findTestObject('Прогноз по отраслям/Россети Волга'))
 
     def test = Change(absPerc, year, typeOfData, month, kpoOtpusk, prognoz)
